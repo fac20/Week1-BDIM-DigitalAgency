@@ -7,30 +7,49 @@
     <meta name="description" content="">
     <link rel="stylesheet" href="style.css">
 </head>
-<!-- form needs: 
-Name of enquirer
-Email of enquirer
-Subject
-Message
-Submit button
-Opt out of marketing checkbox-->
 <body>
     <header>
-    
+        <nav>
+            <ul>
+                <li class="nav-bar-link"><a href="#about-us">About Us</a></li> 
+                <li class="nav-bar-link"><a href="#the-team">The Team</a></li>
+                <li class="nav-bar-link"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <form action="">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" required>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
-        <label for="subject">Subject</label>
-        <input type="text" name="subject" id="subject" required>
-        <label for="message">Message</label>
-        <textarea name="message" id="message" rows="4" cols="50"></textarea>
-        <input id="marketingConsent" name="marketingConsent" type="checkbox" required>
-        <label for="marketingConsent" class="checkbox">Opt out of marketing emails</label>
-        <button type="submit">Submit</button>
-    </form>
+
+    <main>
+        <section id="about-us">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, debitis soluta fuga doloribus id expedita dolorem distinctio veniam, ducimus tenetur consequatur, beatae voluptatum laborum facere! Dolor molestiae cumque sit ex similique distinctio numquam minima, doloribus cum pariatur optio eum fuga? Illum enim laudantium, totam consequatur adipisci natus consequuntur eaque molestias.</p>
+        </section>
+
+        <section id="the-team">
+            <h1>The Team</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sapiente impedit, fugit adipisci tempore possimus itaque corporis placeat nam sed maxime omnis odio consectetur cupiditate eius laboriosam dolor praesentium laborum! Ex consequuntur, sed quae expedita earum est veniam! Itaque, at? Eos explicabo delectus deleniti animi reprehenderit eius quisquam nobis maiores.</p>
+        </section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" required>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4" cols="50"></textarea>
+                <input id="marketingConsent" name="marketingConsent" type="checkbox" required>
+                <label for="marketingConsent" class="checkbox">Opt out of marketing emails</label>
+                <button type="submit">Submit</button>
+            </form>
+        </section> 
+    </main>
+
+
+
+    
 
     <script src="script.js"></script>
 </body>

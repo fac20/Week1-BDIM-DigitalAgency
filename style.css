@@ -1,3 +1,19 @@
+nav {
+    border-bottom: 1px solid black;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.nav-bar-link { 
+    display: inline;
+}
+
+.nav-bar-link a::after {
+    display: inline-block;
+    content: ' > ';
+}
 label,
 input,
 button,
