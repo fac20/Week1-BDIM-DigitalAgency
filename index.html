@@ -7,12 +7,29 @@
     <meta name="description" content="">
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    
-</header>
+<!-- form needs: 
+Name of enquirer
+Email of enquirer
+Subject
+Message
+Submit button
+Opt out of marketing checkbox-->
 <body>
+    <header>
+    
+    </header>
     <form action="">
-
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <label for="subject">Subject</label>
+        <input type="text" name="subject" id="subject" required>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="4" cols="50"></textarea>
+        <input id="marketingConsent" name="marketingConsent" type="checkbox" required>
+        <label for="marketingConsent" class="checkbox">Opt out of marketing emails</label>
+        <button type="submit">Submit</button>
     </form>
 
     <script src="script.js"></script>
