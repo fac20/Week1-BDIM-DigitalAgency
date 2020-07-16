@@ -24,6 +24,9 @@ section {
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-text-colour);
 }
+h1 {
+  padding: 1em 0 0 1em;
+}
 a {
   color: var(--link-text-colour);
 }
@@ -36,6 +39,7 @@ header {
   /* Add fixed nav bar later. Nav covering content on jump link */
 }
 
+/*----- Navigation Bar -----*/
 nav {
     display: inline-block;
     /* border-bottom: 1px solid black; */
@@ -68,10 +72,34 @@ ul a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+/*----- The Team -----*/
+.team-members-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.team-member {
+  max-width: 220px;
+  padding: 1rem;
+  margin: 1rem;
+  background-image: linear-gradient(to bottom right,
+    var(--section-background-colour), var(--background-colour));
+}
+ul {
+  list-style-type: none;
+}
+.team-member--picture {
+  filter: grayscale(100%);
+}
+
+/*----- Form -----*/
+=======
 .about_us img {
   width: 100%;
 }
 
+>>>>>>> master
 label,
 input,
 button,
