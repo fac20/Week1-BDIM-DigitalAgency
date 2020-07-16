@@ -71,8 +71,11 @@ ul a {
 .logo a {
   text-decoration: none;
 }
+/*-----About Us-----*/
+.about_us img {
+  width: 100%;
+}
 
-<<<<<<< HEAD
 /*----- The Team -----*/
 .team-members-wrapper {
   display: flex;
@@ -94,12 +97,6 @@ ul {
 }
 
 /*----- Form -----*/
-=======
-.about_us img {
-  width: 100%;
-}
-
->>>>>>> master
 label,
 input,
 button,
