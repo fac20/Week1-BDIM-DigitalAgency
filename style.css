@@ -21,6 +21,9 @@ section {
   background-color: var(--section-background-colour);
   color: var(--text-colour);
 }
+section h1 {
+  margin-top: 0;
+}
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-text-colour);
 }
@@ -32,8 +35,11 @@ header {
   background-color: var(--section-background-colour);
   color: var(--heading-text-colour);
   width: 100%;
-  /* position: fixed; */
-  /* Add fixed nav bar later. Nav covering content on jump link */
+  height: 3rem;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  padding-top: 10px;
 }
 
 nav {
@@ -66,6 +72,16 @@ ul a {
 
 .logo a {
   text-decoration: none;
+}
+.about_us
+{
+  /* margin-top: 3rem; */
+}
+
+.jump-link {
+  height: 3rem;
+  display: block;
+  padding-top: 10px;
 }
 
 .about_us img {
