@@ -15,6 +15,7 @@
 body {
   background-color: var(--background-colour);
   color: var(--text-colour);
+  margin: 0;
 }
 section {
   background-color: var(--section-background-colour);
@@ -30,17 +31,24 @@ a {
 header {
   background-color: var(--section-background-colour);
   color: var(--heading-text-colour);
+  width: 100%;
+  /* position: fixed; */
+  /* Add fixed nav bar later. Nav covering content on jump link */
 }
 
 nav {
     display: inline-block;
     /* border-bottom: 1px solid black; */
+    float: right;
 }
 
-ul {
-    padding-left: 0;
-}
 
+ul li {
+    margin-right: 15px;
+}
+ul a {
+  text-decoration: none;
+}
 .nav-bar-link { 
     display: inline;
 }
@@ -52,11 +60,16 @@ ul {
 
 .logo {
   font-family: 'Bungee', cursive;
+  margin-left: 5px;
   
 }
 
 .logo a {
   text-decoration: none;
+}
+
+.about_us img {
+  width: 100%;
 }
 
 label,
