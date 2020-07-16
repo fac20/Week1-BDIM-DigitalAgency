@@ -33,7 +33,8 @@ header {
 }
 
 nav {
-    border-bottom: 1px solid black;
+    display: inline-block;
+    /* border-bottom: 1px solid black; */
 }
 
 ul {
@@ -46,8 +47,18 @@ ul {
 
 .nav-bar-link a::after {
     display: inline-block;
-    content: ' > ';
+    /* content: ' > '; */
 }
+
+.logo {
+  font-family: 'Bungee', cursive;
+  
+}
+
+.logo a {
+  text-decoration: none;
+}
+
 label,
 input,
 button,
