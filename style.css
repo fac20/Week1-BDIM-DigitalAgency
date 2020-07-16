@@ -1,3 +1,12 @@
+:root {
+  /*-----colour variables set-----*/
+  --background-colour: hsl(169, 4%, 52%);
+  --section-background-colour: hsl(242, 16%, 35%);
+  --text-colour: hsl(27, 24%, 82%);
+  --heading-text-colour: hsl(105, 26%, 61%);
+  --link-text-colour:hsl(87, 23%, 75%);
+}
+
 nav {
     border-bottom: 1px solid black;
 }
