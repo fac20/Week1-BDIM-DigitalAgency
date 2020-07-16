@@ -1,10 +1,35 @@
 :root {
   /*-----colour variables set-----*/
-  --background-colour: hsl(169, 4%, 52%);
-  --section-background-colour: hsl(242, 16%, 35%);
-  --text-colour: hsl(27, 24%, 82%);
-  --heading-text-colour: hsl(105, 26%, 61%);
-  --link-text-colour:hsl(87, 23%, 75%);
+  --background-colour: hsl(348, 29%, 97%) ;
+  --section-background-colour: hsl(267, 33%, 79%); 
+  --text-colour: hsl(0, 0%, 0%);
+  --heading-text-colour:hsl(307, 26%, 25%);
+  --link-text-colour:hsl(280, 17%, 42%);
+}
+
+/* 000000 */
+/* 502f4c */
+/* 70587c */
+/* c8b8db */
+/* f9f4f5 */
+body {
+  background-color: var(--background-colour);
+  color: var(--text-colour);
+}
+section {
+  background-color: var(--section-background-colour);
+  color: var(--text-colour);
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-text-colour);
+}
+a {
+  color: var(--link-text-colour);
+}
+
+header {
+  background-color: var(--section-background-colour);
+  color: var(--heading-text-colour);
 }
 
 nav {
