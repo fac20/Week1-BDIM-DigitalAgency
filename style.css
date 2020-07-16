@@ -23,6 +23,9 @@ section {
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-text-colour);
 }
+h1 {
+  padding: 1em 0 0 1em;
+}
 a {
   color: var(--link-text-colour);
 }
@@ -32,6 +35,7 @@ header {
   color: var(--heading-text-colour);
 }
 
+/*----- Navigation Bar -----*/
 nav {
     border-bottom: 1px solid black;
 }
@@ -48,6 +52,28 @@ ul {
     display: inline-block;
     content: ' > ';
 }
+
+/*----- The Team -----*/
+.team-members-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.team-member {
+  max-width: 220px;
+  padding: 1rem;
+  margin: 1rem;
+  background-image: linear-gradient(to bottom right,
+    var(--section-background-colour), var(--background-colour));
+}
+ul {
+  list-style-type: none;
+}
+.team-member--picture {
+  filter: grayscale(100%);
+}
+
+/*----- Form -----*/
 label,
 input,
 button,
