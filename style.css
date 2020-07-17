@@ -166,10 +166,13 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
   }   
-
  
   @media only screen and (min-width: 440px) {
     .about_us img {
       width: 440px;
     }
   }
+
+.formSubmitted {
+  text-align: center;
+}
