@@ -82,7 +82,7 @@ ul a {
   text-decoration: none;
 }
 
-.jump-link {
+.jump-link-offset-span {
   height: 3rem;
   display: block;
   padding-top: 10px;
@@ -166,11 +166,10 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
   }   
- 
-  @media only screen and (min-width: 440px) {
-    .about_us img {
-      width: 440px;
-    }
+
+@media only screen and (min-width: 440px) {
+  .about_us img {
+    width: 440px;
   }
 
 .formSubmitted {
