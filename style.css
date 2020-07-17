@@ -28,6 +28,7 @@ section h1 {
 }
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-text-colour);
+  font-family: 'Bungee', cursive;
 }
 h1 {
   /* padding: 1em 0 0 1em; */
@@ -60,6 +61,7 @@ ul li {
 }
 ul a {
   text-decoration: none;
+  font-family: 'Bungee', cursive;
 }
 .nav-bar-link { 
     display: inline;
@@ -92,10 +94,16 @@ ul a {
 }
 .about_us
 {
+  padding: 2rem;
   /* margin-top: 3rem; */
 }
 
 /*----- The Team -----*/
+
+#the-team {
+  padding: 2rem; 
+}
+
 .team-members-wrapper {
   display: flex;
   flex-direction: row;
@@ -116,6 +124,10 @@ ul {
 }
 
 /*----- Form -----*/
+#contact {
+  padding: 2rem; 
+}
+
 label,
 input,
 button,
