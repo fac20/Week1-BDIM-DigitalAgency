@@ -82,7 +82,7 @@ ul a {
   text-decoration: none;
 }
 
-.jump-link {
+.jump-link-offset-span {
   height: 3rem;
   display: block;
   padding-top: 10px;
