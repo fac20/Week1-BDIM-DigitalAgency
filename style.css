@@ -4,7 +4,7 @@
   --section-background-colour: hsl(267, 33%, 79%); 
   --text-colour: hsl(0, 0%, 0%);
   --heading-text-colour:hsl(307, 26%, 25%);
-  --link-text-colour:hsl(280, 17%, 42%);
+  --link-text-colour:hsl(0, 0, 0);
 }
 
 
@@ -82,7 +82,7 @@ ul a {
   text-decoration: none;
 }
 
-.jump-link {
+.jump-link-offset-span {
   height: 3rem;
   display: block;
   padding-top: 10px;
