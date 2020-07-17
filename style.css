@@ -118,18 +118,28 @@ ul {
 /*----- Form -----*/
 label,
 input,
-button,
+/* button, */
 textarea {
   display: block;
   font: inherit;
   color: inherit;
+  padding: 0 0 0 2rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
+textarea {
+  height: 10rem;
 }
 
 input,
 textarea,
 button {
-  width: 100%;
+  width: auto;
   border: 1px solid hsl(220, 10%, 75%);
+  position: relative;
+  margin: 0 1rem 0.5rem 2.5rem;
 }
 
 textarea {
